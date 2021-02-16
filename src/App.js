@@ -8,6 +8,11 @@ class App extends Component {
 		return (
 			<div id='body'>
 				<Header />
+				<div class='topnav'>
+					<a href='#'>Link</a>
+					<a href='#'>Link</a>
+					<a href='#'>Link</a>
+				</div>
 				<Card
 					className='section'
 					img='#'
