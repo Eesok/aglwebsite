@@ -3,16 +3,37 @@ import React, { Component } from 'react';
 class Card extends Component {
 	render() {
 		return (
-			<div className={this.props.className}>
-				<div className='small-div'>
-					<i className={this.props.className}></i>
-					<img src={this.props.img} alt='' />
+			<div className='row'>
+				<div className='column'>
+					<h2>Column 1</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+						sit amet pretium urna. Vivamus venenatis velit nec neque ultricies,
+						eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+						placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+						Praesent scelerisque tortor sed accumsan convallis.
+					</p>
+				</div>
+				<div class='column'>
+					<h2>Column 2</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+						sit amet pretium urna. Vivamus venenatis velit nec neque ultricies,
+						eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+						placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+						Praesent scelerisque tortor sed accumsan convallis.
+					</p>
 				</div>
 
-				<div className='big-div'>
-					<span className='div-title'>{this.props.title}</span>
-					<br />
-					<span>{this.props.description}</span>
+				<div class='column'>
+					<h2>Column 3</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+						sit amet pretium urna. Vivamus venenatis velit nec neque ultricies,
+						eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+						placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+						Praesent scelerisque tortor sed accumsan convallis.
+					</p>
 				</div>
 			</div>
 		);
